@@ -23,4 +23,4 @@ ENV CHANNEL_ID=""
 ENV MESSAGE_DELAY_DAYS="3"
 
 # Run the bot
-CMD ["dotnet", "DiscordBot.dll"]
+CMD ["dotnet", "LoveBot.dll"]
