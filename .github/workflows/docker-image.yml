@@ -11,5 +11,5 @@ jobs:
      - name: Build and push the image
        run: |
          docker login --username outerwinnie --password ${{ secrets.GH_PAT }} ghcr.io
-         docker build . --tag ghcr.io/outerwinnie/goodreads-discord-bot:latest
-         docker push ghcr.io/outerwinnie/goodreads-discord-bot:latest
+         docker build . --tag ghcr.io/outerwinnie/love-bot:latest
+         docker push ghcr.io/outerwinnie/love-bot:latest
